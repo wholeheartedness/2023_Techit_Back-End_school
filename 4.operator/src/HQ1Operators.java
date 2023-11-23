@@ -18,5 +18,15 @@ public class HQ1Operators {
 
         System.out.print(String.format("%d승 %d무 %d패 ", win, tie, lose));
         System.out.println(String.format("승률: %.3f", odds));
+
+
+        //풀이
+        Scanner scanner = new Scanner(System.in);
+        int wins = scanner.nextInt();
+        int draw = scanner.nextInt();
+        int loses = scanner.nextInt();
+        double winRate = (double) wins / (wins + loses);
+        System.out.println(String.format("%d승 %d무 %d패 승률: %.3f", wins, draw, loses, winRate));
+
     }
 }

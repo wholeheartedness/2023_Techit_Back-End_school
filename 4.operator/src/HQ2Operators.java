@@ -16,5 +16,11 @@ public class HQ2Operators {
         int remainder = a % b;
 
         System.out.println(String.format("%d = %d * %d + %d", a, b, quotient, remainder));
+
+        //풀이
+        Scanner scanner = new Scanner(System.in);
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
+        System.out.println(String.format("A = %d * B * %d", a / b , a % b));
     }
 }

@@ -9,18 +9,24 @@ public class HQ5Operators {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        // 1 = 0000 0001
-        // 2 = 0000 0010
-        // 3 = 0000 0011
-        // 8 = 0000 1000
-        // 9 = 0000 1001
-        // 10 = 0000 1010
-        // 11 = 0000 1011
-        // 12 = 0000 1100
-        // 13 = 0000 1101
-        // 20 = 0001 0100
         System.out.println(String.format("a의 2제곱은 %d이고, 1의자리는 %d이다",a*a, a*a % 10));
         System.out.println(String.format("a의 4제곱은 %d이고, 1의자리는 %d이다",a*a*a*a, a*a*a*a % 10));
         System.out.println(String.format("a의 8제곱은 %d이고, 1의자리는 %d이다",a*a*a*a*a*a*a*a, a*a*a*a*a*a*a*a % 10));
+
+        //풀이
+        Scanner scanner = new Scanner(System.in);
+        int base = scanner.nextInt();
+        base *= base; // base = base * base
+        base %= 10;   // base = (base * base) % 10
+        System.out.println(base);
+        base *= base;   // base = (base * base % 10) * (base * base % 10)
+        //System.out.println(base);
+        base %= 10;     // base =
+        System.out.println(base);
+        base *= base;
+        base %= 10;
+        System.out.println(base);
+
+
     }
 }

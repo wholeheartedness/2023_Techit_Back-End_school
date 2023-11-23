@@ -10,5 +10,10 @@ public class HQ3Operators {
         int num = sc.nextInt();
         char ascii = (char) (num + 64);
         System.out.println(String.format("%d은(는) ASCII로 \"%s\"다",num, ascii));
+
+        //풀이
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        System.out.println((char) (64 + n));
     }
 }

@@ -11,5 +11,11 @@ public class HQ4Operators {
         int b = sc.nextInt();
         boolean result = a % b == 0;
         System.out.println(result);
+
+        Scanner scanner = new Scanner(System.in);
+        int A = scanner.nextInt();
+        int B = scanner.nextInt();
+        System.out.println(A % B == 0);
+
     }
 }

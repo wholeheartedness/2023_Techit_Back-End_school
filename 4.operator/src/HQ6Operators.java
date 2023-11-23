@@ -12,5 +12,12 @@ public class HQ6Operators {
         double temp = sc.nextDouble();
         boolean isGoHospital = temp >= 38 || temp <= 36;
         System.out.println(String.format("체온: %.2f, 병원 갈지말지: %s", temp, isGoHospital));
+
+        //풀이
+        Scanner scanner = new Scanner(System.in);
+        double temperature = scanner.nextDouble();
+        // boolean goSeeDoctor = temperature <= 36 || temperature >= 38;
+        boolean goSeeDoctor = !(36 < temperature && temperature < 38); // 36 < temp < 38 은 boolean 출력 조건에 불충족
+        System.out.println(goSeeDoctor);
     }
 }
