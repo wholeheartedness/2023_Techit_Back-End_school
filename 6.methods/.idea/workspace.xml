@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cf8898f-a43a-4005-8565-8c77df56645c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../5.control_statements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../5.control_statements/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,11 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2YYY3dTDUsfk7N0e5zVE8zoQqCz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,6 +37,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/2023_Techit_Back-End_school/7.hi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -50,37 +46,37 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Q5MethodsTry">
-    <configuration name="D5Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="D5Methods" />
+  <component name="RunManager" selected="Application.HQ6Methods">
+    <configuration name="HQ2Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HQ2Methods" />
       <module name="lecture" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q5Methods" />
+    <configuration name="HQ3Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HQ3Methods" />
       <module name="lecture" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5MethodsRe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q5MethodsRe" />
+    <configuration name="HQ4Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HQ4Methods" />
       <module name="lecture" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5MethodsReRe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q5MethodsReRe" />
+    <configuration name="HQ5Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HQ5Methods" />
       <module name="lecture" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5MethodsTry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q5MethodsTry" />
+    <configuration name="HQ6Methods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HQ6Methods" />
       <module name="lecture" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q5MethodsTry" />
-        <item itemvalue="Application.Q5MethodsReRe" />
-        <item itemvalue="Application.Q5MethodsRe" />
-        <item itemvalue="Application.Q5Methods" />
-        <item itemvalue="Application.D5Methods" />
+        <item itemvalue="Application.HQ6Methods" />
+        <item itemvalue="Application.HQ5Methods" />
+        <item itemvalue="Application.HQ4Methods" />
+        <item itemvalue="Application.HQ3Methods" />
+        <item itemvalue="Application.HQ2Methods" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700703783855</updated>
       <workItem from="1700703784929" duration="16476000" />
+      <workItem from="1700726720195" duration="9206000" />
     </task>
     <servers />
   </component>
