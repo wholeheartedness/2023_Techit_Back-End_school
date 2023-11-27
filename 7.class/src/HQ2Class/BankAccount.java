@@ -18,9 +18,12 @@ public class BankAccount {
 
     //입금
     public int deposit(int depositMoney) {
+        // 내 잔고에 입금액 더하기
         this.money += depositMoney;
         System.out.println(depositMoney + "원 입금완료");
+        // 은행 잔고에 입금액 더하기
         allMoney += depositMoney;
+        // 내 잔고 반환
         return this.money;
     }
 
@@ -38,6 +41,14 @@ public class BankAccount {
                 allMoney -= withdrawMoney;
             } System.out.println("withraw status: 인출 완료되었습니다.");
         } return true;
+
+        //if (!this.password.equals(trypw) || this.withdrawMoney){
+        //      return false;
+        // } else {
+        //      this.money -= withdrawMoney;
+        //      allMoney -= withdrawMoney;
+        //      return true;
+        // }
     }
 
     //총 생성된 계좌 개수, 전체 잔고 총합
@@ -49,4 +60,13 @@ public class BankAccount {
     public void accountInfo(){
         System.out.println(String.format("비번:%s/잔고:%d", this.pw, this.money));
     }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public int getMoney() {
+        return money;
+    }
 }
+
