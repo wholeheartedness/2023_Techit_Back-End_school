@@ -1,0 +1,30 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(¯Ó……ûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óŸû
+[
+java:S1854,"@Remove this useless assignment to local variable "lambdaParams".(¥ ¦„şÿÿÿÿ
+U
+java:S1854+"@Remove this useless assignment to local variable "lambdaParams".(¹ ¦9
+^
+java:S1854#"CRemove this useless assignment to local variable "multilineLambda".(÷×’¾øÿÿÿÿ
+P
+java:S1854!"5Remove this useless assignment to local variable "b".(Æ„Ùìÿÿÿÿÿ
+K
+java:S1854 "5Remove this useless assignment to local variable "a".(ÅÅ€
+–
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(İèk
+E	java:S106"+Replace this use of System.out by a logger.(íÎ€°ÿÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(‚ó
+<
+java:S1481 "&Remove this unused "a" local variable.(ÅÅ€
+A
+java:S1481!"&Remove this unused "b" local variable.(Æ„Ùìÿÿÿÿÿ
+@	java:S106$"+Replace this use of System.out by a logger.(Àë´’
+E	java:S106%"+Replace this use of System.out by a logger.(·˜µüÿÿÿÿ
+O
+java:S1481#"4Remove this unused "multilineLambda" local variable.(÷×’¾øÿÿÿÿ
+F
+java:S1481+"1Remove this unused "lambdaParams" local variable.(¹ ¦9
+E	java:S106-"+Replace this use of System.out by a logger.(­ºÁ»ÿÿÿÿÿ
+Q	java:S1256"<This block of commented-out lines of code should be removed.(£Ü‘Œ
